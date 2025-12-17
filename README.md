@@ -16,7 +16,7 @@ Wants=network-online.target
 
 [Service]
 Type=simple
-ExecStart=/usr/bin/python3 /PATH/PrometheusAlerting/prometheus_tray.py
+ExecStart=/usr/bin/python3 /PATH/PrometheusAlertingViewer/prometheus_tray.py
 Restart=always
 RestartSec=5
 
